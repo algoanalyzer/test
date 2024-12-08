@@ -31,7 +31,7 @@ export default function Home() {
         className={'grid p-4 grid-cols-4 justify-around bg-gradient-to-r from-sky-600 via-blue-600 to-sky-600 shadow-lg'}
       >
         <div className={"flex px-4 font-sans text-xl md:text-2xl font-bold text-slate-50 col-span-3 col-start-1 justify-self-start items-center"}>
-           Algo Analyzer
+          Algo Analyzer
         </div>
         <div className='col-span-1 flex justify-end lg:justify-around items-center'>
           <ThemeToggle />
