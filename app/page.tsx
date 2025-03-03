@@ -3,6 +3,8 @@ import type { Metadata } from 'next'
 import AgreeButton from './_components/_buttons/agreeButton'
 import ThemeToggle from './_components/_buttons/darkModeToggleButton';
 import Link from 'next/link';
+import SCButton from './_components/_buttons/ssbutton';
+import BSButton from './_components/_buttons/bsbutton';
 
 export const metadata: Metadata = {
   title: 'Algo Analyzer',
@@ -32,9 +34,10 @@ export default function Home() {
             etc.) is collected as part of the tool demonstration.
           </p> */}
           <p className="pb-3">
-            Please click on the Agree button below to start the tool.
+            Please click on the any button below to start the tool.
           </p>
-          <AgreeButton route="/level-zero" />
+          <BSButton route="/level-zero-bs" />
+          <SCButton route="/level-zero" />
         </div>
       </div>
     </Layout>
